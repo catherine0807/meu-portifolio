@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+ <head> 
+    <meta charset="UTF-8">
+    <title> Calculadora de IMC </title>
+    <link rel="stylesheet" href="style.css"></link>
+ </head>
+
+
+   
+ <body>
+    <header>
+    <h1>  Técnico em Desenvolvimento de Sistemas </h1>
+  </header>
+
+    <div class="container">
+      <div class="card"> <!--adiiconado Card-->
+        <h2> Qual seu IMC? </h2>
+        <label for ="peso"> Peso (kg): </label>
+        <input type="number" id="peso" placeholder="50"> 
+
+        <label for="altura"> Altura (m): </label>
+        <input type="number"step="0.01" id="altura" placeholder="1.50">
+        <button onclick="calcularIMC()"> Calcular</button>
+        <div id="resultado"></div>
+      </div><!--fecha Card-->
+    </div>
+ 
+    <script src="script.js"> </script>
+    <script src="js/script.js"> </script>
+ 
+ <footer> 
+  <p> Catherine Bolivar </p>
+  <p> Serviço Nacional de Aprendizagem Industrial - Senai</p>
+ </footer>
+
+  </body>
+ 
+</html>

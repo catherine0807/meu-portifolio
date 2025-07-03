@@ -1,0 +1,103 @@
+body {
+    background-repeat: no-repeat; 
+}
+
+header {
+    background-color: transparent;
+    
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+header h1 {
+    font-family: "Courier New", Courier, monospace;
+    color: violet;
+}
+
+.informacao{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    left: 90px;
+}
+.gostos{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    left: 90px;
+}
+
+
+.tabela {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 90px;
+}
+
+.filmes {
+    background-color:white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    text-align: center;
+    position: relative;
+     top:-750px;
+    left: 600px;
+}
+.formula1 {
+    background-color:white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    text-align: center;
+    position: relative;
+     top:-750px;
+    left: 600px;
+}
+.naogosto {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    text-align: center;
+    position: relative;
+    top: -750px;
+    left: 600px;
+}
+
+input, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(124, 123, 126);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+  

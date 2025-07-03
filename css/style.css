@@ -1,15 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+    font-family:'Times New Roman', Times, serif, sans-serif;
+    padding:300px;
+    background-color: rgb(240, 190, 233);
+   background-image: url("https://www.budismohoje.org.br/wp-content/uploads/2023/04/HD-wallpaper-studio-ghibli-top-35-best-studio-ghibli-cute-ghibli.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+  color:rgba(84, 143, 89, 0.911);
+
+
 }
+
 
 button {
     margin: 5px;
     padding: 10px;
     font-size: 16px;
+    background-color:rgba(163, 209, 157, 0.76);
+    border-color:rgba(163, 209, 157, 0.76);
+    border-radius: 8px;
+    animation: piscar 1s infinite; /* Aplica a animação ao passar o mouse */
+    color:rgb(58, 99, 45);
+
+
+  position: relative;
+  animation: piscar 5s linear 2s infinite alternate
 }
+
 
 input {
     padding: 5px;
     margin: 5px;
+   
+}
+
+
+@keyframes piscar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+
+
+  0%   {background-color:rgb(255, 200, 250); left:0px; top:0px;}
+  25%  {background-color:rgba(255, 180, 245, 0); left:200px; top:0px;}
+  50%  {background-color:rgb(159, 211, 143); left:200px; top:200px;}
+  75%  {background-color:rgb(250, 180, 171); left:0px; top:200px;}
+  100% {background-color:rgb(173, 239, 255); left:0px; top:0px;}
+}
+h1{
+    color:rgba(255, 163, 171, 0.849);
+    font-family:'Gill Sans';
+border-style: double;
+border-left: 6px solid rgba(255, 163, 171, 0.849);
+text-align: center;
+text-shadow: 2px 2px rgba(250, 185, 230, 0.507);
+color: rgb(255, 163, 171);
+  text-shadow: 1px 1px 2px rgb(240, 192, 221), 0 0 25px rgb(243, 73, 138), 0 0 5px rgb(233, 147, 187);
 }
