@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /*fonte*/
+   background-image: linear-gradient(45deg, rgb(248, 159, 203), rgb(250, 244, 190));
+    background-size: cover;
+   display:flex; /*flex container*/
+    justify-content: center; /*conteudo centralizado horizontalmente*/
+    align-items: center; /*conteudo centralizado verticalmente*/
+   
+
+}
+.loginContainer{
+    background-color:transparent;
+    padding: 28px;
+    width: 600px;
+    
+}    
+
+div.loginContainer{
+    left: 50px;
+    text-align: center;
+}
+
+
+button{
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color:rgba(250, 180, 171);
+    border-color:rgb(231, 202, 198);
+    border-radius: 10px;
+    animation: piscar 1s infinite; /* Aplica a animação ao passar o mouse */
+    color:rgb(255, 255, 255); 
+
+}
+
